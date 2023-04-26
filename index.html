@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Home</title>
+        <!--responsive User Interface-->
+        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover">
+        <!--style, script and API-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    </head>
+    <body>
+        <nav class="mainNavbar">
+            <a class="navbarBrand" href="./"><img src="https://raw.githubusercontent.com/warung-kopi/penikmat-kopi/main/img/navLogo.png">Waroeng Kopi</a>
+            <div class="navbarContent">
+                <a id="navbarButton" class="navbarButton" href="#about">About</a>
+                <a id="navbarButton" class="navbarButton" href="#product">Product</a>
+                <a id="navbarButton" class="navbarButton" href="#contact">Contact</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        <nav class="mobileNavbar">
+            <a id="navbarButton" href="#about">About</a>
+            <a id="navbarButton" href="#product">Product</a>
+            <a id="navbarButton" href="#contact">Contact</a>
+        </nav>
+        <main>
+            <div id="about">
+                <div class="overlay"></div>
+                <h1>Tentang Kami</h1>
+                <p>Kami adalah perusahaan yang bergerak dibidang industri kopi nasional.</p>
+            </div>
+
+            <div id="product">
+                <h1>Produk</h1>
+                <div>
+                    <div class="product">
+                        <p class="title-product">Kopi Mengenang</p>
+                        <p class="desc-product">( 100% kopi murni )</p>
+                        <img src="./img/kopi-hitam.png">
+                    </div>
+                    <div class="product">
+                        <p class="title-product">Kopi Susu</p>
+                        <p class="desc-product">( 60% kopi murni + 40% susu murni )</p>
+                        <img src="./img/kopi-susu.jpeg">
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <div>
+                    <div class="title">
+                        <h1>Hubungi Kami</h1>
+                        <p>melalui</p>
+                    </div>
+                    <div class="contact-content">
+                        <a href="https://www.facebook.com/adam.rahmatilahi">
+                            Facebook
+                        </a>
+                        
+                        <a href="https://github.com/Adamjatim">
+                            Github
+                        </a>
+                        
+                        <a href="https://www.instagram.com/adam_jatim/">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footerContent">
+                © 2023 adamjatim
+                <br>
+                Powered by
+                <a href="https://github.com">Github</a>
+            </div>
+        </footer>
+        <script src="navbar.js"></script>
+    </body>
+</html>
